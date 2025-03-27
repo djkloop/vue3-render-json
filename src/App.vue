@@ -2,7 +2,7 @@
 import { shallowRef } from 'vue';
 import { useRenderFakeJson } from './hooks/useRenderFakeJson';
 
-const { data } = useRenderFakeJson(50, 100)
+const { data } = useRenderFakeJson(50, 400)
 const renderJson = shallowRef(data);
 
 </script>
