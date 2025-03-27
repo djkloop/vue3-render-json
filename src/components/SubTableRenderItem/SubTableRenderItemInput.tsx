@@ -6,8 +6,8 @@ export function rendererFormInput() {
     renderTableDefault(_, params) {
       return (
         <FormInput
-          id={params.columnIndex}
-          key={params.columnIndex}
+          id={params.rowIndex}
+          key={`form_input${params.columnIndex}`}
         />
       )
     },
