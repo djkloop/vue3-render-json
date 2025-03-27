@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { FormInputNumberProps } from './FormInputNumber.props';
+import Counter from '../../Counter/Counter.vue';
 
 const { id } =  defineProps<FormInputNumberProps>()
 
@@ -15,7 +16,7 @@ const count = ref(0)
   <div>
     <h1>Form Input Number - {{ id }}</h1>
     <input class="border"  v-model="count" type="number">
-    <h1>Count: {{ count }}</h1>
+    <Counter :key="id"/>
   </div>
 </template>
 

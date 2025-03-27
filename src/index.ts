@@ -1,3 +1,6 @@
+/* eslint-disable perfectionist/sort-imports */
+import 'uno.css'
+
 import { createApp } from 'vue'
 import App from './App.vue'
 import { setupComponents } from './components/setupComponents'
