@@ -1,0 +1,33 @@
+{
+  "name": "lowcode-form-sky",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
+    "lint": "eslint .",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "vxe-pc-ui": "4.5.1",
+    "vxe-table": "4.12.1",
+    "z-vue-scan": "^0.0.33"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.11.0",
+    "@rsbuild/core": "^1.2.16",
+    "@rsbuild/plugin-babel": "^1.0.4",
+    "@rsbuild/plugin-vue": "^1.0.7",
+    "@rsbuild/plugin-vue-jsx": "^1.1.0",
+    "@tailwindcss/postcss": "^4.0.17",
+    "@unocss/eslint-plugin": "^66.0.0",
+    "@unocss/webpack": "66.1.0-beta.7",
+    "eslint": "^9.23.0",
+    "eslint-plugin-format": "^1.0.1",
+    "tailwindcss": "^4.0.17",
+    "typescript": "^5.8.2",
+    "unocss": "66.1.0-beta.7"
+  }
+}
