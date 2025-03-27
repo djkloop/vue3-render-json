@@ -15,7 +15,6 @@ const input = ref('')
   <div>
     <h1>Form Input - {{ id }}</h1>
     <input class="border" v-model="input" type="text">
-    <p>{{ input }}</p>
   </div>
 </template>
 
