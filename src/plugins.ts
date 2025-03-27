@@ -13,7 +13,9 @@ function setupVxeUI(app: App) {
 }
 
 function setupVueScan(app: App) {
-  app.use<VueScanOptions>(VueScan, {})
+  app.use<VueScanOptions>(VueScan, {
+    enable: true,
+  })
 }
 
 export function setupPlugins(app: App) {
